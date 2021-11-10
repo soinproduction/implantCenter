@@ -1,0 +1,58 @@
+.index-about {
+  padding: 85px 0  60px;
+
+  &__box {
+    display: flex;
+    align-items: center;
+    grid-gap: clamp(20px, 11.250vw , 162px);
+    position: relative;
+  }
+
+  &__article {
+    max-width: 450px;
+    width: 100%;
+    display: grid;
+    grid-gap: 40px;
+  }
+
+  &__title {
+    font-family: $font-family1;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: 0.3em;
+  }
+
+  &__text {
+    font-family: $font-family1;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #272727;
+  }
+
+  &__wrapper {
+    margin-right: calc(-100% - 720px);
+    max-width: 720px;
+    width: 100vw;
+  }
+
+  &__bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 511px;
+    width: 35.486vw;
+  }
+}
+
+.about-slider {
+  margin-bottom: 50px;
+
+  &__link {
+    display: flex;
+  }
+}

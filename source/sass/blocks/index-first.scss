@@ -1,0 +1,55 @@
+.index-first {
+  margin-bottom: 120px;
+
+
+  &__box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__item {
+    display: grid;
+    grid-gap: 70px;
+  }
+
+  &__button {
+    width: 208px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F0F0EE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -9px -9px 25px rgba(255, 255, 255, 0.25);
+    font-family: $font-family1;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.3em;
+    color: #272727;
+    transition: all .6s;
+
+    &:hover {
+      transform: scale(1.2);
+      box-shadow: none;
+      box-shadow: 0 1px 20px 8px rgba(0, 0, 0, 0.25);
+    }
+  }
+
+  &__title {
+    font-family: $font-family1;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 75px;
+    letter-spacing: 0.3em;
+  }
+}
+
+.gradient-title {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: conic-gradient(from 270deg at 50% 50%, rgba(39, 39, 39, 0.5625) 0deg, rgba(193, 193, 193, 0.876084) 73.13deg, rgba(39, 39, 39, 0.610944) 172.33deg, rgba(100, 95, 95, 0.46656) 339.56deg, rgba(0, 0, 0, 0.551864) 350.81deg, rgba(117, 117, 117, 0.44206) 356.85deg, rgba(39, 39, 39, 0) 360deg);
+}

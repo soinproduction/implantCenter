@@ -1,0 +1,202 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: normal;
+  font-family: "Roboto";
+  color: #000000;
+  background-color: #E5E5E5;
+  width: 100%;
+}
+
+html {
+  box-sizing: border-box;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+
+* {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+a {
+  display: inline-block;
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  margin: 0;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  line-height: initial;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+}
+
+
+input {
+  width: 100%;
+  outline: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  margin: 0;
+  appearance: none;
+}
+
+input[type="number"] {
+  appearance: textfield;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  border: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(100%);
+}
+
+.panel {
+  z-index: 20;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.container {
+  width: 100%;
+  max-width: 1020px;
+  margin: 0 auto;
+  position: relative;
+  padding: 0 5px;
+
+  &--header {
+    max-width: 1350px;
+  }
+
+  &--footer {
+    max-width: 1240px;
+  }
+}
+
+.tabcontent {
+  display: none;
+
+  &.active {
+    display: block;
+  }
+}
+
+
+* {
+
+  /* FireFox */
+  scrollbar-color: #272727;
+
+  &::-webkit-scrollbar {
+    width: 9px;
+    box-shadow: none;
+    height: 100%;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #E5E5E5;
+    border-radius: 4px;
+    background-clip: padding-box;
+    border: 3px solid #272727;
+    box-shadow: none;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color:#272727;
+    cursor: pointer;
+    border-radius: 0px;
+    box-shadow: none;
+    height: 100%;
+  }
+
+  ::-webkit-scrollbar-button {
+    background-color: transparent;
+    box-shadow: none;
+    display: none;
+  }
+}
+
+.bg-wrapper {
+  position: relative;
+
+  &::before {
+    top: 10%;
+    left: 40%;
+    right: -22%;
+    height: 100%;
+    word-wrap: break-word;
+    background-image: conic-gradient(from 270.51deg at 50% 50%, rgba(39, 39, 39, 0.0625) 0deg, rgba(193, 193, 193, 0.02) 73.13deg, rgba(39, 39, 39, 0.110944) 172.33deg, rgba(100, 95, 95, 0.03) 339.56deg, rgba(0, 0, 0, 0) 356.81deg, rgba(150, 38, 38, 0.002) 356.85deg, rgba(39, 39, 39, 0.1) 360deg);
+    // opacity: 0.1;
+    position: absolute;
+    content: 'IMPLANT CENTER.';
+    font-family: $font-family1;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 288px;
+    line-height: 337px;
+    letter-spacing: 0.3em;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+
+
+
+
+
+
+
