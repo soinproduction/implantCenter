@@ -35,10 +35,10 @@ header {
 
   &__item {
     transition: all .4s;
+    opacity: .8;
 
     &:hover {
-      transform: scale(1.1);
-
+      opacity: 1;
       .nav__link {
         color: #fff;
       }

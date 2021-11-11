@@ -91,9 +91,10 @@ footer {
     letter-spacing: 0.3em;
     color: #F0F0EE;
     transition: all .4s;
+    opacity: 0.8;
 
     &:hover {
-      transform: translateX(-10px);
+      opacity: 1;
       color: #fff;
     }
   }
@@ -101,8 +102,9 @@ footer {
 
 .header-phones__item {
   transition: all .4s;
+  opacity: .8;
 
   &:hover {
-    transform: translateX(10px);
+    opacity: 1;
   }
 }

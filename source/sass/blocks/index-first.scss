@@ -1,6 +1,8 @@
 .index-first {
-  margin-bottom: 120px;
-
+  // margin-bottom: 120px;
+  min-height: calc(100vh - 90px);
+  display: flex;
+  align-items: center;
 
   &__box {
     display: grid;
@@ -11,7 +13,7 @@
 
   &__item {
     display: grid;
-    grid-gap: 70px;
+    grid-gap: 30px;
   }
 
   &__button {
@@ -48,7 +50,12 @@
   }
 
   &__subtitle {
-    display: none;
+    font-family: $font-family1 ;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #272727;
   }
 }
 
