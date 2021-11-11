@@ -285,18 +285,23 @@
   }
 
   .index-first__title {
-    font-size: clamp(18px, 5.625vw, 32px);
-    line-height: 100%;
+    font-size: clamp(30px, 5.625vw, 32px);
+    line-height: 120%;
     letter-spacing: 0.3em;
     text-align: center;
   }
 
-  .index-first__item:nth-child(2) {
-    display: none;
-  }
-
   .index-first__box {
     display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .index-first__item:nth-child(2) {
+    margin-top: -75px;
+  }
+
+  .index-first__item:nth-child(1) {
+    margin-top: -40px;
   }
 
   .index-first__item {
@@ -333,7 +338,7 @@
   }
 
   .index-first {
-    margin-bottom: clamp(25px, 7.813vw ,120px);
+    margin-bottom: clamp(60px, 7.813vw ,120px);
     min-height: auto;
   }
 
@@ -342,8 +347,8 @@
     margin-bottom: 35px;
 
     &__title {
-      font-size: clamp(14px, 4vw, 22px);
-      line-height: 16px;
+      font-size: clamp(25px, 7vw, 38px);
+      line-height: 120%;
       letter-spacing: 0.3em;
     }
 
@@ -514,13 +519,13 @@
   }
 
   .pas-section__title {
-    text-align: center;
-    font-size: 14px;
-    line-height: 16px;
+    font-size: clamp(25px, 6vw, 38px);
+    line-height: 120%;
     text-align: center;
     letter-spacing: 0.3em;
-    max-width: 70%;
     margin: 0 auto;
+    width: calc(100% + 50px);
+    margin-left: -25px;
   }
 
   .pas-list {
@@ -675,8 +680,8 @@
   }
 
   .index-about__title {
-    font-size: clamp(14px, 4vw ,22px);
-    line-height: 16px;
+    font-size: clamp(25px, 6vw, 38px);
+    line-height: 120%;
     text-align: center;
     margin-bottom: 15px;
   }
