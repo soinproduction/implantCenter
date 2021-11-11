@@ -1,0 +1,68 @@
+.mobile-burger {
+  transition: all .4s;
+
+  &.active {
+    transform: scaleX(-1);
+  }
+}
+
+.header__item {
+  transition: all .4s;
+}
+
+.header__item.active {
+  transform: translate(0);
+}
+
+
+
+@media (min-width: 280px) and (max-width: 992px) {
+  .header__item {
+    position: fixed;
+    transform: translateX(-110%);
+    width: 100%;
+    left: 0;
+    top: 60px;
+    height: calc(100vh - 60px);
+    background: rgba(39, 39, 39, 0.911);
+    z-index: 50;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    grid-gap: 30px;
+    padding: 40px 20px;
+
+  }
+
+  header {
+    position: relative;
+    z-index: 51;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .mobile-burger {
+    display: flex;
+  }
+
+  .nav__list {
+    display: grid;
+    grid-gap: 20px;
+  }
+
+  .nav__link, .header-phones__link {
+    font-size: 14px;
+  }
+
+  .select__current {
+    font-size: 12px;
+  }
+
+  .select__item span {
+    font-size: 12px;
+  }
+
+  .select__header {
+    height: 25px;
+  }
+}
+

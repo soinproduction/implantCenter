@@ -8,6 +8,13 @@ body {
   color: #000000;
   background-color: #E5E5E5;
   width: 100%;
+
+  &.fixed {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+  }
 }
 
 html {
