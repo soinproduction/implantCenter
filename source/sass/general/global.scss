@@ -127,9 +127,25 @@ input[type="number"] {
   &--footer {
     max-width: 1240px;
   }
+
+  &--translate {
+    transform: translateX(3.47vw);
+  }
 }
 
-.tabcontent {
+.container-mode {
+  width: 100%;
+  max-width: 1230px;
+  margin: 0 auto;
+  position: relative;
+  padding: 0 5px;
+
+  &--translate {
+    transform: translateX(3.47vw);
+  }
+}
+
+[data-tab-content] {
   display: none;
 
   &.active {

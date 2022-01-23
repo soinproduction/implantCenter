@@ -1,0 +1,38 @@
+.about-second {
+  padding: 90px 0 80px;
+  background-image: url(../img/about-second-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 53% 100%;
+
+  &__article {
+    max-width: 450px;
+    margin-left: auto;
+  }
+
+  &__title {
+    background-image: conic-gradient(from 37.51deg at 50% 50%, rgba(39, 39, 39, 0.5625) 0deg, rgba(193, 193, 193, 0.876084) 73.13deg, rgba(39, 39, 39, 0.610944) 172.33deg, rgba(100, 95, 95, 0.46656) 339.56deg, rgba(0, 0, 0, 0.551864) 356.81deg, rgba(117, 117, 117, 0.44206) 356.85deg, rgba(39, 39, 39, 0) 360deg);
+    font-family: $font-family1;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.3em;
+    margin-bottom: 32px;
+  }
+
+  &__text {
+    font-family: $font-family1;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #272727;
+
+    & + & {
+      margin-top: 25px;
+    }
+  }
+}
