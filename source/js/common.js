@@ -7,6 +7,45 @@ const body = document.body; // body
 const width = document.documentElement.clientWidth;
 
 
+const reviewModal = document.querySelector('[data-modal="review"]');
+const questionsModal = document.querySelector('[data-modal="questions"]');
+
+const reviewBtn = document.querySelector('[data-btn="reviews"]');
+const questionsBtn = document.querySelector('[data-btn="questions"]');
+
+const overlay = document.querySelector('.overlay');
+const modal = document.querySelector('.modal');
+
+
+reviewBtn.addEventListener('click', function() {
+  overlay.classList.add('active');
+  reviewModal.classList.add('active');
+});
+
+questionsBtn.addEventListener('click', function() {
+  overlay.classList.add('active');
+  questionsModal.classList.add('active');
+});
+
+overlay.addEventListener('click', function(e) {
+  e.stopPropagation();
+
+  let curentTargetWrapper = document.querySelector('.modals-wrapper')
+
+   if (event.target === curentTargetWrapper) {
+    overlay.classList.remove('active');
+    questionsModal.classList.remove('active');
+    reviewModal.classList.remove('active');
+  }
+
+})
+
+
+
+
+
+
+
 
 for (const mobileBurger of mobileBurgers) {
   mobileBurger.addEventListener('click', function(){

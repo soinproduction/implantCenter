@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="Ru">
+  @@include('_head.html',{})
+<body>
+  @@include('_header.html',{})
+
+  <main>
+    <section class="first-sec" style="background-image: url(../img/services-bg.png)">
+      <div class="container-mode container-mode--translate">
+        <div class="first-sec__box">
+          <div class="first-sec__coll">
+            <h1 class="first-sec__title">
+              О КЛИНИКЕ.
+            </h1>
+
+            <button class="first-sec__button transparent-btn">
+              ЗАПИСАТЬСЯ НА ПРИЕМ
+            </button>
+
+          </div>
+
+          <article class="first-sec__coll first-sec__coll-content">
+              <p class="first-sec__text">
+                У нас работают молодые и амбициозные специалисты, настоящие фанаты своего дела. Вы гарантированно попадете к грамотному и профессиональному врачу. Уютная и спокойная обстановка в нашей клинике позволит Вам максимально расслабиться и получить в итоге великолепный результат!
+              </p>
+
+              <a href="#" class="first-sec__link">
+                <svg class="first-sec__icon" width="9" height="62">
+                  <use href='img/sprite/sprite.svg#anhor-arrow'></use>
+                </svg>
+              </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-sec">
+      <div class="container-mode container-mode--translate">
+        <div class="contact-sec__box">
+          <ul class="contact-sec__list">
+              <li class="contact-sec__item">
+                <h2 class="contact-sec__title">
+                  ТЕЛЕФОН:
+                  <span class="contact-sec__icon">
+                    <picture>
+                      <img width='35' height='35' src='img/c1.svg' alt='icon'>
+                    </picture>
+                  </span>
+                </h2>
+                <ul class="contact-sec__sub-list">
+                  <li class="contact-sec__sub-item">
+                    <a href="tel:380686018105" class="contact-sec__sub-link">+38 (068) 601-81-05</a>
+                  </li>
+                  <li class="contact-sec__sub-item">
+                    <a href="tel:380686018105" class="contact-sec__sub-link">+38 (068) 601-81-05</a>
+                  </li>
+                  <li class="contact-sec__sub-item">
+                    <a href="tel:380686018105" class="contact-sec__sub-link">+38 (068) 601-81-05</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="contact-sec__item">
+                <h2 class="contact-sec__title">
+                  АДРЕС:
+                  <span class="contact-sec__icon">
+                    <picture>
+                      <img width='35' height='35' src='img/c2.svg' alt='icon'>
+                    </picture>
+                  </span>
+                </h2>
+                <ul class="contact-sec__sub-list">
+                  <li class="contact-sec__sub-item">
+                    <a href="#" class="contact-sec__sub-link">г. Харьков, <br> ул. Ахсарова 13</a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="contact-sec__item">
+                <h2 class="contact-sec__title">
+                  ПОЧТА:
+                  <span class="contact-sec__icon">
+                    <picture>
+                      <img width='35' height='35' src='img/c3.svg' alt='icon'>
+                    </picture>
+                  </span>
+                </h2>
+                <ul class="contact-sec__sub-list">
+                  <li class="contact-sec__sub-item">
+                    <a href="mailto:implant@gmail.com" class="contact-sec__sub-link">implant@gmail.com</a>
+                  </li>
+                </ul>
+              </li>
+          </ul>
+
+          <div class="contact-sec__map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d20309.075323923767!2d30.4721233!3d50.4851493!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1643045613540!5m2!1sru!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    @@include('_form-section.html',{})
+
+  </main>
+  @@include('_footer.html',{})
+  @@include('_modal.html',{})
+  <script src="js/swiper.min.js"></script>
+  <script src="js/common.min.js"></script>
+
+</body>
+
+</html>

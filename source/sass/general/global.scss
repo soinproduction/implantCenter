@@ -131,6 +131,10 @@ input[type="number"] {
   &--translate {
     transform: translateX(3.47vw);
   }
+
+  &--blog {
+    max-width: 1160px;
+  }
 }
 
 .container-mode {

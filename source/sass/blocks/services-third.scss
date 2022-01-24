@@ -27,7 +27,9 @@
   }
 
   &__slider {
-    max-width: Min(45vw ,646px);
+    // max-width: Min(45vw ,646px);
+
+    max-width: Min(50vw,750px);
     width: calc(100% + Min(11.5vw,165px));
     margin-right: Max(-11.5vw,-165px);
 

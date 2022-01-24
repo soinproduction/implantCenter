@@ -1,0 +1,38 @@
+.mini-sec {
+  padding: 56px 0 56px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  &__title {
+    font-family: $font-family1 ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: 0.3em;
+    text-align: center;
+    color: #F0F0EE;
+  }
+
+  &__box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .mini-sec__title {
+      font-family: $font-family1 ;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 36px;
+      line-height: 42px;
+      letter-spacing: 0.3em;
+      color: #F0F0EE;
+    }
+  }
+
+  &__buttons {
+    max-width: 350px;
+    width: 100%;
+  }
+}
