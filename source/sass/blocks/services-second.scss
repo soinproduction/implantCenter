@@ -5,6 +5,6 @@
   &__list {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-gap: 35px 38px;
+    grid-gap: 35px Min( 2.639vw,38px);
   }
 }

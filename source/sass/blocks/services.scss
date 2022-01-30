@@ -21,10 +21,10 @@
     font-family: $font-family3;
     font-style: normal;
     font-weight: normal;
-    font-size: clamp(30px, 3.33vw,48px);
+    font-size: clamp(20px, 3.33vw,48px);
     line-height: 100%;
     letter-spacing: 0.2em;
-    margin-bottom: Min(5.90vw, 85px);
+    margin-bottom: clamp(24px,5.90vw, 85px);
     color: #F0F0EE;
     max-width: 450px;
   }
@@ -33,9 +33,9 @@
     font-family: $font-family3;
     font-style: normal;
     font-weight: normal;
-    font-size: clamp(15px, 1.25vw ,18px);
-    line-height: 100%;
-    margin-bottom: Min( 2.08vw,30px);
+    font-size: clamp(14px, 1.25vw ,18px);
+    line-height: 110%;
+    margin-bottom: clamp(17px,2.08vw,30px);
     color: #F0F0EE;
     max-width: 551px;
   }

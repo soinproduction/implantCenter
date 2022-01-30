@@ -144,10 +144,14 @@ input[type="number"] {
   position: relative;
   padding: 0 5px;
 
-  &--translate {
-    transform: translateX(3.47vw);
+  @media screen and (min-width: 1399px) {
+    &--translate {
+      transform: translateX(3.47vw);
+    }
   }
 }
+
+
 
 [data-tab-content] {
   display: none;
